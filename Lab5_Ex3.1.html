@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+"Hãy nâng cấp file HTML này thành một trang giới thiệu cá nhân chuyên nghiệp. Thêm CSS để giao diện đẹp hơn. Nội dung bao gồm: Họ tên [Tên của bạn], MSSV, lớp. Tạo các mục để: 1. Xem file PDF nhiệm vụ 1.2 (dùng thẻ <a>), 2. Hiển thị file PNG nhiệm vụ 2.1 (dùng thẻ <img>), 3. Nhúng một video YouTube bất kỳ về lập trình (dùng <iframe>)."
+  <<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -195,4 +196,110 @@
 
 </body>
 >>>>>>> 0eb50635e0fb6a78eb0af640c0713b29169543be
+</html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Họ tên - MSSV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #eaeaea; /* Màu nền hiện đại */
+        }
+        .content-box {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Căn giữa các thành phần */
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            margin-bottom: 20px;
+        }
+        h1 { color: #2c3e50; }
+        h2 { color: #2980b9; } /* Màu tiêu đề phụ */
+        .media-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 5px; /* Bo góc cho ảnh */
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* Tỷ lệ 16:9 */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content-box">
+    <header>
+        <h1>Sản Phẩm Nội Dung Số</h1>
+        <p>Thực hiện bởi: [Tên của bạn] - Mã số SV: [MSSV của bạn]</p>
+    </header>
+
+    <section>
+        <h2>1. Tài liệu Nhiệm vụ</h2>
+        <p>Tải về tài liệu nhiệm vụ tại đây: <a href="nhiem_vu_1.2.pdf" download>Tải Nhiệm vụ 1.2</a></p>
+    </section>
+
+    <section>
+        <h2>2. Hình ảnh Nhiệm vụ</h2>
+        <p>Dưới đây là hình ảnh nhiệm vụ được thiết kế:</p>
+        <div class="media-container">
+            <img src="nhiem_vu_2.1.png" alt="Hình ảnh nhiệm vụ 2.1">
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Video Giới thiệu về Lập trình</h2>
+        <p>Video dưới đây cung cấp cái nhìn tổng quan về lập trình:</p>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bản quyền thuộc về sinh viên. Mọi quyền được bảo lưu.</p>
+        <p><i>Ghi chú: Mã nguồn này được hỗ trợ tạo bởi GitHub Copilot/AI.</i></p>
+    </footer>
+</div>
+
+</body>
 </html>
